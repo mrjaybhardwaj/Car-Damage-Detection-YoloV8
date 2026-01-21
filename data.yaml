@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bonnet', 'Bumper', 'Dickey', 'Door', 'Fender', 'Light', 'Windshield']
+
+roboflow:
+  workspace: capstone-nh0nc
+  project: car-damage-detection-t0g92
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-nh0nc/car-damage-detection-t0g92/dataset/4
